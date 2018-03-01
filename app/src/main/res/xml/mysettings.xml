@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="showAlive"
+        android:title="Show \ Hide Alive CheckBox" />
+
+    <EditTextPreference
+        android:defaultValue="Welcome!"
+        android:key="message"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Message on start" />
+
+
+    <ListPreference
+        android:key="list_preference"
+        android:title="List Display Prefs"
+        android:entries="@array/girds"
+        android:entryValues="@array/girds"
+        android:dialogTitle="Set Display of list"
+        android:summary="choose from grid or list"
+        />
+
+</PreferenceScreen>
